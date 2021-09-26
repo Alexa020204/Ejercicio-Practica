@@ -1,0 +1,4 @@
+#Crear un programa un programa en donde ingrese un número. Se debera mostrar true si el número no esta entre 10 y 100(sin incluirlos), muestre false en el caso contrario
+num=int(input("Ingrese un número: "))
+cond= num<10 or num>100
+print("¿El número no esta entre 10 y 100?" ,cond)
