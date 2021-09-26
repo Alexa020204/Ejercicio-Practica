@@ -1,0 +1,6 @@
+nota1=float(input("Ingrese nota1: "))
+nota2=float(input("Ingrse nota 2: "))
+promedio=(nota1 + nota2)/2
+print("El promedio es: "+str(promedio))
+aprueba=promedio>=60
+print("¿Aprobo la materia?", aprueba)
