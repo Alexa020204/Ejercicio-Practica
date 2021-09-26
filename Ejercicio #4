@@ -1,0 +1,10 @@
+#Escriba un programa que permita al usuario ingresar el radio(cm) y altura (cm) de un termo en forma cilindrica, su programa deberá calcular el volumen del termo y mostarr True si el usuario pueda llenar el termo con 300 ml de agua, False en caso contrario. 
+#Recordar V = pi*r^2*H
+#Recordar= 1  ml = cm^2
+radio = float(input("Ingrse el radio del termo: "))
+altura = float(input("Ingrese la altura del termo: "))
+pi=3.14
+volumen=pi*(radio**2)*altura
+print("el volumen del termo es: ",volumen,"cm^3")
+condicion=volumen>=300
+print("¿Puede llenar el termo con 300ml de agua?:",condicion)
